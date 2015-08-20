@@ -8,7 +8,7 @@ plot 'data.dat' u 1:2 title 'Data'
 set title 'Graph Title' 
 set xlabel 'x-axis'
 set ylabel 'y-axis'
-set key top left
+set key left top #other options are (left centre right)(top centre bottom)
 set xrange [-10:10]
 set yrange [-10:10]
 
